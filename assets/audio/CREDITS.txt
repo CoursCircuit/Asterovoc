@@ -1,0 +1,29 @@
+ASTEROVOC — SOURCES AUDIO
+
+Ambiance : « Outer Space Loop » — wipics
+Source : https://opengameart.org/content/outer-space-loop
+Fichier d’origine : https://opengameart.org/sites/default/files/outer_space_2.mp3
+Fichier embarqué : ambience.mp3 (copie de l’original)
+Licence annoncée par l’auteur : CC0 / Public Domain.
+À la lecture, un fondu croisé de 0,6 seconde rend la boucle continue.
+
+Bruitages : « Sci-Fi Sounds (1.0) » — Kenney
+Source : https://kenney.nl/assets/sci-fi-sounds
+Licence : Creative Commons Zero (CC0 1.0 Universal).
+La licence originale fournie est conservée dans Kenney-LICENSE.txt.
+Correspondance des fichiers, copiés sans réencodage :
+  fire.ogg        <- Audio/laserSmall_000.ogg
+  explosion-a.ogg <- Audio/explosionCrunch_000.ogg
+  explosion-b.ogg <- Audio/explosionCrunch_003.ogg
+  missed.ogg      <- Audio/lowFrequency_explosion_000.ogg
+  bonus.ogg       <- Audio/forceField_000.ogg
+
+Licence CC0 : https://creativecommons.org/publicdomain/zero/1.0/
+Sources récupérées et vérifiées le 22 octobre 2026.
+Les noms des auteurs sont mentionnés à titre de crédit ; aucune affiliation
+ni approbation d’Asterovoc par ces auteurs n’est revendiquée.
+
+samples.js est la copie binaire de ces six fichiers encodée en base64 pour
+permettre leur décodage local dans l’app, sans réseau ni accès à des fichiers
+externes. Il se reconstruit avec : node scripts/pack-audio.cjs
+Les empreintes des fichiers sont consignées dans sources.json.

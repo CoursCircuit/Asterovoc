@@ -1,0 +1,49 @@
+{
+  "name": "asterovoc",
+  "version": "2.2.0",
+  "main": "main.js",
+  "build": {
+    "appId": "org.courscircuit.asterovoc",
+    "productName": "Asterovoc",
+    "directories": {
+      "output": "dist-v2"
+    },
+    "files": [
+      "index.html",
+      "main.js",
+      "preload.js",
+      "js/**",
+      "css/**",
+      "assets/**",
+      "LICENSE",
+      "README.txt"
+    ],
+    "artifactName": "Asterovoc-${version}-${arch}.${ext}",
+    "afterPack": "./scripts/after-pack.cjs",
+    "mac": {
+      "identity": "-",
+      "hardenedRuntime": false,
+      "category": "public.app-category.education",
+      "icon": "build/icon.icns",
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "node scripts/pack-audio.cjs && CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder --mac --arm64",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check main.js && node --check preload.js && node --check js/core.js && node --check js/mission.js && node --check js/audio.js && node --check js/teams.js && node --check js/effects.js && node --check js/game.js && node --check js/app.js",
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "CoursCircuit",
+  "license": "MIT",
+  "description": "Le vocabulaire en orbite : jeu collectif de révision pour la classe, listes et dossiers hors ligne.",
+  "devDependencies": {
+    "electron": "45.0.0",
+    "electron-builder": "26.15.3"
+  }
+}
