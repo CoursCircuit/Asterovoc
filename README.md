@@ -1,6 +1,10 @@
 # Asterovoc
 
-**Le vocabulaire en orbite.** Créé par S.Bovat. Asterovoc est un jeu de révision collective à projeter en classe. Les mots apparaissent sur des astéroïdes ; les élèves répondent à voix haute et l’enseignant valide les réponses. L’application fonctionne hors ligne et sans compte.
+**Le vocabulaire en orbite.** Asterovoc est un jeu de révision collective à projeter en classe. Les mots apparaissent sur des astéroïdes ; les élèves répondent à voix haute et l’enseignant valide les réponses. L’application fonctionne hors ligne et sans compte.
+
+## Jouer en ligne
+
+[Ouvrir Asterovoc dans le navigateur](https://courscircuit.github.io/Asterovoc/). Aucune installation n’est nécessaire. Les données sont enregistrées dans le navigateur utilisé : exportez votre bibliothèque au format `.asterovoc` pour la sauvegarder ou la transférer vers l’application macOS. Les données des deux versions ne se synchronisent pas automatiquement.
 
 ## Télécharger pour macOS
 
@@ -35,3 +39,5 @@ Sur macOS, `npm run build` produit un DMG et un ZIP Apple Silicon dans `dist-v2/
 ## Licence et ressources tierces
 
 Le code de l’application est proposé sous [licence MIT](LICENSE). La police Space Grotesk est distribuée sous [SIL Open Font License](assets/fonts/OFL.txt). Les sons sont distribués sous CC0 ; leurs auteurs, sources et crédits sont détaillés dans [assets/audio/CREDITS.txt](assets/audio/CREDITS.txt) et la licence fournie par Kenney est conservée dans ce dossier. Les images du jeu ont été créées pour Asterovoc avec un outil de génération d’images.
+
+*Créé par S. Bovat*
