@@ -1,6 +1,6 @@
 # Asterovoc
 
-**Le vocabulaire en orbite.** Asterovoc est un jeu de révision collective à projeter en classe. Les mots apparaissent sur des astéroïdes ; les élèves répondent à voix haute et l’enseignant valide les réponses. L’application fonctionne hors ligne et sans compte.
+**Le vocabulaire en orbite.** Asterovoc est un jeu de révision collective à projeter en classe. Les mots apparaissent sur des astéroïdes ; les élèves répondent à voix haute et l’enseignant valide les réponses. La version macOS fonctionne hors ligne et sans compte.
 
 ## Jouer en ligne
 
