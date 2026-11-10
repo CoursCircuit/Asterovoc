@@ -40,4 +40,6 @@ Sur macOS, `npm run build` produit un DMG et un ZIP Apple Silicon dans `dist-v2/
 
 Le code de l’application est proposé sous [licence MIT](LICENSE). La police Space Grotesk est distribuée sous [SIL Open Font License](assets/fonts/OFL.txt). Les sons sont distribués sous CC0 ; leurs auteurs, sources et crédits sont détaillés dans [assets/audio/CREDITS.txt](assets/audio/CREDITS.txt) et la licence fournie par Kenney est conservée dans ce dossier. Les images du jeu ont été créées pour Asterovoc avec un outil de génération d’images.
 
+Cette application a été vibe codée par un non-développeur, à l’origine pour ses propres besoins.
+
 *Créé par S. Bovat*
